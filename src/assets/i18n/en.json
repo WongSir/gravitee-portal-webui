@@ -89,11 +89,11 @@
       "congratulations": "Bravo !",
       "discoverApi": "Start discovering the API",
       "goToHome": "Back to home",
+      "oauth2": "You have to get an access_token from the authorization server before being able to consume this API.",
       "subscriptionAccepted": "The subscription of the application <b>{appName}</b> to the plan <b>{planName}</b> of the API <b>{apiName}</b> is accepted!",
       "subscriptionKey": "Here is your personal key to access the API",
       "subscriptionPending": "The subscription of the application <b>{appName}</b> to the plan <b>{planName}</b> of the API <b>{apiName}</b> is being validated.",
-      "subscriptionRejected": "The subscription of the <b>{appName}</b> application to the <b>{planName}</b> plan of the API <b>{apiName}</b> is rejected.",
-      "oauth2": "You have to get an access_token from the authorization server before being able to consume this API."
+      "subscriptionRejected": "The subscription of the <b>{appName}</b> application to the <b>{planName}</b> plan of the API <b>{apiName}</b> is rejected."
     },
     "validate": {
       "askConfirmation": "The subscription of the <b>{appName}</b> application to the <b>{planName}</b> plan of the API <b>{apiName}</b> is about to be finalized .",
@@ -255,9 +255,6 @@
       }
     },
     "metadata": {
-      "add": {
-        "success": "The metadata \"{key}\" has been added"
-      },
       "format": "Format",
       "key": "Key",
       "list": {
@@ -265,8 +262,6 @@
           "title": "Add"
         },
         "remove": {
-          "message": "Are you sure to remove this metadata ?",
-          "success": "The metadata \"{key}\" has been removed",
           "title": "Remove"
         },
         "title": "Metadata list"
@@ -961,6 +956,7 @@
     "notFound": "Page not found",
     "notifications": "Notifications",
     "subscriptions": "Subscriptions",
+    "tickets": "Tickets",
     "user": "My account"
   },
   "search": {
@@ -990,6 +986,14 @@
       "title": "Subscriptions"
     },
     "title": "My subscriptions"
+  },
+  "tickets": {
+    "api": "API",
+    "application": "Application",
+    "content": "Content",
+    "date": "Date",
+    "subject": "Subject",
+    "title": "Tickets"
   },
   "user": {
     "account": {
